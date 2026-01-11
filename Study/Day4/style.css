@@ -1,0 +1,244 @@
+body {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 5px;
+      margin: 0;
+      background-color: #131419;
+      color: white;
+      font-family: "Asap", sans-serif;
+}
+
+.title {
+      display: flex;
+      font-weight: 400;
+      font-family: "Lexend", sans-serif;
+}
+
+.title-dot {
+      color: rgb(43, 128, 255);
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+#options {
+      display: flex;
+      gap: 1.5rem;
+      /* border: 3px solid green;     */
+}
+
+#button {
+      display: flex;
+      width: 115px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 10px;
+      border: 2px solid #C1E7FF;
+      border-radius: 99999px;
+      justify-content: center;
+      align-items: center;
+      background-color: #1A1C1E;
+      color: #C1E7FF;
+}
+
+#YearBox,
+#YearSelect {
+      width: 120px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 10px;
+      border: 2px solid #C1E7FF;
+      border-radius: 30px;
+      background-color: #1A1C1E;
+      color: #C1E7FF;
+
+}
+
+#YearSelect {
+      border: none;
+      box-decoration-break: unset;
+}
+
+#name {
+      width: 150px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 10px;
+      border: 2px solid #C1E7FF;
+      border-radius: 30px;
+      background-color: #1A1C1E;
+      color: #C1E7FF;
+
+}
+
+input {
+      padding-inline: 1.5rem;
+}
+
+input::placeholder {
+      color: #b4c8d492;
+}
+
+#button1,
+#button2 {
+      display: flex;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 10px;
+      all: unset;
+      margin-left: 15px;
+      margin-right: 15px;
+      color: white;
+}
+
+#iconBox {
+      width: 160px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid #C1E7FF;
+      border-radius: 30px;
+      background-color: #1A1C1E;
+
+}
+
+img {
+
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+}
+
+.icon {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #282E3A;
+      border-radius: 50%;
+      margin-left: 5px;
+      margin-right: 5px;
+
+}
+
+table {
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 1px solid #3bb4ff4f;
+      font-size: clamp(0.5rem, 2vw + 0.1rem, 1rem);
+
+}
+
+tr {
+      display: grid;
+      grid-template-columns: 1fr 5fr 2fr 2fr 2.5fr;
+      gap: 3px;
+
+}
+
+tr>*:not(:first-child) {
+      border-left: 0.005em solid #c1e7ff22;
+
+}
+
+th {
+      font-size: 0.8em;
+      background-color: hsla(211, 100%, 10%, 0.5);
+      color: hsl(209, 100%, 84%);
+      border-bottom: 0.005em solid #c1e7ff22;
+      font-weight: normal;
+}
+
+
+.up-down-icn {
+      height: 1em;
+      width: auto;
+      color: currentColor;
+}
+
+.up-down-icn path {
+      stroke-width: 0.12em;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+}
+
+th {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+tr>* {
+      padding: 8px 10px;
+}
+
+.row :nth-child(1) {
+      color: rgb(186, 209, 253);
+      font-weight: 500;
+}
+
+.row :nth-child(2) {
+      font-weight: 500;
+}
+
+.row:nth-child(odd) {
+      background-color: #000818;
+}
+
+.row:nth-child(even) {
+      background-color: #0c111c;
+}
+
+/* Rank 1 */
+.row:nth-child(1) {
+      background-color: #ffd9001b;
+}
+
+.row:nth-child(1) td:nth-child(1) {
+      color: rgb(255, 217, 0);
+}
+
+.row:nth-child(1) td:nth-child(2) {
+      color: rgb(255, 242, 169);
+}
+
+
+/* Rank 2 */
+.row:nth-child(2) {
+      background-color: #7c7c7c29;
+}
+
+.row:nth-child(2) td:nth-child(1) {
+      color: rgb(222, 222, 222);
+}
+
+.row:nth-child(2) td:nth-child(2) {
+      color: rgb(230, 230, 230);
+}
+
+
+/* Rank 3 */
+.row:nth-child(3) {
+      background-color: #4f350945;
+}
+
+.row:nth-child(3) td:nth-child(1) {
+      color: #ec9500;
+}
+
+.row:nth-child(3) td:nth-child(2) {
+      color: #ffe7be;
+}
